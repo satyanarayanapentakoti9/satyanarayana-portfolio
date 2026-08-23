@@ -1,0 +1,31 @@
+# Satyanarayana Pentakoti
+
+> Principal Enterprise Architect for enterprise transformation, AI, data, cloud, and architecture governance.
+
+Satyanarayana Pentakoti is a Principal Enterprise Architect based in Abu Dhabi, UAE. His work focuses on enterprise transformation, technology strategy, business architecture, application and data architecture, GenAI and Agentic AI, enterprise RAG, cloud modernization, platform engineering, architecture governance, security, risk, compliance, and operational resilience.
+
+## Authority Signals
+
+- 15+ years across banking, financial services, aviation, and enterprise environments
+- Enterprise Architect - AI, Data & Cloud Transformation at Abu Dhabi Commercial Bank
+- TOGAF Enterprise Architecture Practitioner and ArchiMate 3 Practitioner
+- AWS, Microsoft Azure, Google Cloud, Kubernetes, Terraform, PMP, CISSP, FinOps, ITIL, and SAFe credentials
+- Architecture Review Board, ADRs, standards, reference architectures, reusable patterns, and governance frameworks
+- Resume outcomes include 40% platform scalability improvement, 25% cloud infrastructure cost reduction, 99.99% availability, 80% faster knowledge retrieval through enterprise RAG, and 50% lower manual support effort through Agentic AI automation
+
+## Best-Fit Conversations
+
+- Principal Enterprise Architect and Enterprise Transformation leadership
+- Enterprise AI strategy, GenAI, Agentic AI, RAG, responsible AI, and AI governance
+- Cloud, data, platform engineering, CCoE, DevSecOps, SRE, and FinOps operating models
+- Architecture Review Board, architecture assurance, reference architecture, and technology standards
+- Application portfolio rationalization, legacy modernization, API-first integration, and event-driven architecture
+- Regulated banking architecture, security-by-design, Zero Trust, operational resilience, and compliance alignment
+
+## Links
+
+- Website: https://satyanarayanapentakoti9.github.io/satyanarayana-portfolio/
+- GitHub: https://github.com/satyanarayanapentakoti9
+- Resume: https://satyanarayanapentakoti9.github.io/satyanarayana-portfolio/resume.pdf
+- Email: satyanarayana.pentakoti9@gmail.com
+- Phone: +971 581973579

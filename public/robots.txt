@@ -25,4 +25,4 @@ Allow: /
 User-agent: *
 Allow: /
 
-Sitemap: https://satyanarayanapentakoti9.github.io/satyanarayana-portfolio/sitemap.xml
+Sitemap: https://www.satyanarayanapentakoti.com/sitemap.xml

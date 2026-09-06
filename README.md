@@ -74,7 +74,13 @@ git push origin main
 
 6. Open Vercel Deployments, match the deployment to the pushed commit, and wait for Ready. Verify the change on the production domain.
 
-Browser sign-in and terminal Git authentication are separate. If a push reports an authentication error, authenticate Git using GitHub CLI (`gh auth login`) or an existing Git credential manager; never put tokens into source files or remote URLs.
+Browser sign-in and terminal Git authentication are separate. This Mac uses Git Credential Manager with direct browser sign-in, configured for this repository. If Git needs authentication again, run:
+
+```sh
+/Users/satya/.local/share/git-credential-manager/git-credential-manager github login --browser --username satyanarayanapentakoti9
+```
+
+Complete GitHub's identity verification and authorization in the browser. This method does not use a device code. Credentials are stored by the credential manager in the macOS Keychain; never put tokens into source files or remote URLs. Other computers should install Git Credential Manager and configure their own Git authentication.
 
 ### Build configuration
 

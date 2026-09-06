@@ -1,3 +1,4 @@
+import { getResumeDownloadFilename, prepareResumeDownload } from "@/lib/resume";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { ArrowRight, Download, Github, Mail, MapPin } from "lucide-react";
@@ -81,7 +82,7 @@ const Hero = ({ onSectionClick }: HeroProps) => {
           </div>
 
           <div className="flex flex-wrap items-center gap-5 pt-2 text-sm text-slate-300">
-            <a className="inline-flex items-center gap-2 transition-colors hover:text-white" href="/resume.pdf" download="Satyanarayana_Pentakoti_Principal_Enterprise_Architect_UAE.pdf">
+            <a className="inline-flex items-center gap-2 transition-colors hover:text-white" href="/resume.pdf" download={getResumeDownloadFilename()} onClick={prepareResumeDownload}>
               <Download className="h-4 w-4" />
               Download resume
             </a>

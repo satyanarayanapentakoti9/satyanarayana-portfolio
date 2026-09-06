@@ -1,3 +1,4 @@
+import { getResumeDownloadFilename, prepareResumeDownload } from "@/lib/resume";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Download, Github, Mail, MapPin, Phone } from "lucide-react";
@@ -82,7 +83,7 @@ const Contact = () => {
                 education, and certifications.
               </p>
               <Button className="mt-6 w-full rounded-md" asChild>
-                <a href="/resume.pdf" download="Satyanarayana_Pentakoti_Principal_Enterprise_Architect_UAE.pdf">
+                <a href="/resume.pdf" download={getResumeDownloadFilename()} onClick={prepareResumeDownload}>
                   <Download className="mr-2 h-4 w-4" />
                   Download PDF
                 </a>

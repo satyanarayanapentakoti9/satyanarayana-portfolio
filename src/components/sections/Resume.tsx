@@ -1,3 +1,4 @@
+import { getResumeDownloadFilename, prepareResumeDownload } from "@/lib/resume";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
@@ -131,7 +132,7 @@ const Resume = () => {
             </p>
           </div>
           <Button size="lg" className="w-fit rounded-md bg-primary hover:bg-primary/90" asChild>
-            <a href="/resume.pdf" download="Satyanarayana_Pentakoti_Principal_Enterprise_Architect_UAE.pdf">
+            <a href="/resume.pdf" download={getResumeDownloadFilename()} onClick={prepareResumeDownload}>
               <Download className="mr-2 h-4 w-4" />
               Download resume
             </a>
